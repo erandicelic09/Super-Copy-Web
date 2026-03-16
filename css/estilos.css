@@ -200,3 +200,51 @@ input:focus, textarea:focus {
     justify-content: center;
     color: var(--amarillo-logo);
 }
+
+/* Estilos para la sección Nosotros */
+.seccion-nosotros {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 20px;
+    text-align: center;
+}
+
+.historia {
+    background-color: var(--blanco);
+    padding: 30px;
+    border-radius: 15px;
+    margin-bottom: 40px;
+    border-left: 8px solid var(--azul-logo);
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.mision-vision-grid {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap; /* Responsivo automático */
+}
+
+.tarjeta-nosotros {
+    background-color: var(--negro-fondo);
+    color: var(--blanco);
+    padding: 30px;
+    border-radius: 15px;
+    flex: 1;
+    min-width: 280px;
+    transition: transform 0.3s ease;
+    border-bottom: 5px solid var(--amarillo-logo);
+}
+
+.tarjeta-nosotros:hover {
+    transform: scale(1.05); /* Efecto de zoom suave */
+}
+
+.tarjeta-nosotros .icono {
+    font-size: 3rem;
+    margin-bottom: 15px;
+}
+
+.tarjeta-nosotros h3 {
+    color: var(--amarillo-logo);
+}
