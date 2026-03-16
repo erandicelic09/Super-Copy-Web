@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE catalogo SYSTEM "catalogo.dtd">
+<catalogo>
+    <producto id="P001">
+        <nombre>Cuaderno Profesional Scribe Escolar Raya 100h </nombre>
+        <descripcion>Cuaderno profesional marca Scribe con 100 hojas de raya.</descripcion>
+        <categoria>Escolar</categoria>
+        <precio moneda="MXN">28.00</precio>
+        <disponibilidad>En stock</disponibilidad>
+    </producto>
+
+    <producto id="P002">
+        <nombre>Cuaderno Profesional Scribe Escolar Cuadro grande 100h </nombre>
+        <descripcion>Cuaderno profesional marca Scribe con 100 hojas de cuadro grande.</descripcion>
+        <categoria>Escolar</categoria>
+        <precio moneda="MXN">28.00</precio>
+        <disponibilidad>En stock</disponibilidad>
+    </producto>
+
+    <producto id="P003">
+        <nombre>Cuaderno Profesional Scribe Escolar Doble raya 100h </nombre>
+        <descripcion>Cuaderno profesional marca Scribe con 100 hojas de doble raya.</descripcion>
+        <categoria>Escolar</categoria>
+        <precio moneda="MXN">28.00</precio>
+        <disponibilidad>En stock</disponibilidad>
+    </producto>
+
+    <producto id="P004">
+        <nombre>Cuaderno Profesional Scribe Escolar Blanco 100h </nombre>
+        <descripcion>Cuaderno profesional marca Scribe con 100 hojas de Blanco.</descripcion>
+        <categoria>Escolar</categoria>
+        <precio moneda="MXN">28.00</precio>
+        <disponibilidad>En stock</disponibilidad>
+    </producto>
+
+    <producto id="P005">
+        <nombre>Cuaderno Italiano Scribe Escolar Raya 100h engrapado </nombre>
+        <descripcion>Cuaderno italiano marca Scribe con 100 hojas de raya y engrapada.</descripcion>
+        <categoria>Escolar</categoria>
+        <precio moneda="MXN">23.00</precio>
+        <disponibilidad>En stock</disponibilidad>
+    </producto>
+
+    <producto id="P006">
+        <nombre>Cuaderno Italiano Scribe Escolar Cuadro grande 100h engrapado </nombre>
+        <descripcion>Cuaderno italiano marca Scribe con 100 hojas de cuadro grande y engrapada.</descripcion>
+        <categoria>Escolar</categoria>
+        <precio moneda="MXN">23.00</precio>
+        <disponibilidad>En stock</disponibilidad>
+    </producto>
+
+    <producto id="P007">
+        <nombre>Cuaderno Italiano Scribe Escolar Doble raya 100h engrapado </nombre>
+        <descripcion>Cuaderno italiano marca Scribe con 100 hojas de doble raya y engrapada.</descripcion>
+        <categoria>Escolar</categoria>
+        <precio moneda="MXN">23.00</precio>
+        <disponibilidad>Pocas unidades</disponibilidad>
+    </producto>
+
+    <producto id="P008">
+        <nombre>Acuarelas profesionales Pascua de 12 pastillas pastel</nombre>
+        <descripcion>Acuarelas profesionales de la marca Pascua con 12 pastillas de colores pastel.</descripcion>
+        <categoria>Arte y Diseño</categoria>
+        <precio moneda="MXN">250.00</precio>
+        <disponibilidad>Pocas unidades</disponibilidad>
+    </producto>
+
+    <producto id="S001">
+        <nombre>Impresión Hoja fotográfica Color</nombre>
+        <descripcion>Impresión con hoja fotográfica para una mejor calidad de imagen.</descripcion>
+        <categoria>Servicios</categoria>
+        <precio moneda="MXN">Desde 8.00+</precio>
+        <disponibilidad>Inmediata en tienda</disponibilidad>
+    </producto>
+
+    <producto id="S002">
+        <nombre>Impresión Hoja papel bond Color</nombre>
+        <descripcion>Impresión con de papel bond, económico.</descripcion>
+        <categoria>Servicios</categoria>
+        <precio moneda="MXN">Desde 2.00+</precio>
+        <disponibilidad>Inmediata en tienda</disponibilidad>
+
+    </producto>
+
+        <producto id="S003">
+        <nombre>Enmicado</nombre>
+        <descripcion>Enmica tus documentos del tamaño que quieras, para protegerlos.</descripcion>
+        <categoria>Servicios</categoria>
+        <precio moneda="MXN">Desde 8.00+</precio>
+        <disponibilidad>Inmediata en tienda</disponibilidad>
+    </producto>
+
+    <producto id="J001">
+        <nombre>Coche de Colección Escala 1:64 1pz</nombre>
+        <descripcion>Coche de colección a escala de 1:64 en color rojo. </descripcion>
+        <categoria>Juguetes</categoria>
+        <precio moneda="MXN">120.00</precio>
+        <disponibilidad>En stock</disponibilidad>
+    </producto>
+
+    <producto id="J002">
+        <nombre>Muñeca Barbie clásica 1pz</nombre>
+        <descripcion>Muñeca Barbie clásica de 1pz en varios modelos.</descripcion>
+        <categoria>Juguetes</categoria>
+        <precio moneda="MXN">190.00</precio>
+        <disponibilidad>En stock</disponibilidad>
+    </producto>
+</catalogo>

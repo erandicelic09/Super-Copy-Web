@@ -1,0 +1,9 @@
+<!ELEMENT catalogo (producto+)>
+<!ELEMENT producto (nombre, descripcion, categoria, precio, disponibilidad)>
+<!ATTLIST producto id ID #REQUIRED>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT descripcion (#PCDATA)>
+<!ELEMENT categoria (#PCDATA)>
+<!ELEMENT precio (#PCDATA)>
+<!ATTLIST precio moneda CDATA #REQUIRED>
+<!ELEMENT disponibilidad (#PCDATA)>
