@@ -191,9 +191,11 @@ input:focus, textarea:focus {
 }
 
 .grilla {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-    gap: 20px;
+display: grid;
+    /* Esto crea columnas que se ajustan solas al tamaño de la pantalla */
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); 
+    gap: 25px; /* Espacio entre cada tarjeta */
+    padding: 20px;
 }
 
 /* Banner secundario con efecto visual */
@@ -253,6 +255,27 @@ input:focus, textarea:focus {
 
 .tarjeta-nosotros h3 {
     color: var(--amarillo-logo);
+}
+
+.tarjeta-producto {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 15px;
+    text-align: center;
+    display: flex;
+    flex-direction: column; /* Alinea contenido hacia abajo */
+    justify-content: space-between;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+/* 3. Las Imágenes (Aquí es donde evitamos que se encimen) */
+.tarjeta-producto img {
+    width: 100%;       /* Ocupa todo el ancho de la tarjeta */
+    height: 200px;      /* Altura fija para todas */
+    object-fit: contain; /* Ajusta la imagen sin estirarla ni cortarla */
+    margin-bottom: 15px;
+    background-color: #f9f9f9; /* Fondo suave por si la imagen es pequeña */
 }
 
 .banner-secundario {
