@@ -23,6 +23,12 @@ header {
     border-bottom: 5px solid var(--azul-logo);
 }
 
+.logo-img {
+    max-width: 250px; /* Ajusta el tamaño a tu gusto */
+    height: auto;
+    margin-bottom: 10px;
+}
+
 nav ul {
     list-style: none;
     padding: 0;
@@ -246,5 +252,16 @@ input:focus, textarea:focus {
 }
 
 .tarjeta-nosotros h3 {
+    color: var(--amarillo-logo);
+}
+
+.banner-secundario {
+    background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('../img/banner-creatividad.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     color: var(--amarillo-logo);
 }
