@@ -65,6 +65,14 @@
         <disponibilidad>Pocas unidades</disponibilidad>
     </producto>
 
+    <producto id="P009">
+        <nombre>Resistol en barra Dixon 8gr</nombre>
+        <descripcion>Resistol en barra de la marca Dixon con 8gr.</descripcion>
+        <categoria>Escolar</categoria>
+        <precio moneda="MXN">11.00</precio>
+        <disponibilidad>En stock</disponibilidad>
+    </producto>
+
     <producto id="S001">
         <nombre>Impresión Hoja fotográfica Color</nombre>
         <descripcion>Impresión con hoja fotográfica para una mejor calidad de imagen.</descripcion>
